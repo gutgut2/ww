@@ -664,7 +664,7 @@ main {
   content: "Show less";
 }
 .index-page .top-nav .links .more-link:before {
-  content: "Show more";
+  content: "Show all";
 }
 .index-page .top-nav .all {
   padding-top: 10px;
