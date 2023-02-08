@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="slick.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script src="js/common.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+	<script>
+		$(function() {
+			$('.tabs').tabs();
+		});
+	</script>
+</head>
+<body>
+	<header class="header flex">
+		<div class="logo">
+			<a href="/"><img src="img/logo.svg"></a>
+		</div>
+		<nav>
+			<a class="link">Celebrities explore <i class="fa fa-angle-down"></i></a>
+			<div class="window">
+				<div class="flex tabs">
+					<button>For celebrities</button>
+					<ul>
+						<li><a href="#tab1">Celebrities by Country</a></li>
+						<li><a href="#tab2">Celebrities by Platform</a></li>
+						<li><a href="#tab3">Celebrities by category</a></li>
+					</ul>
+					<div class="links" id="tab1">
+						<a href="#">Canada</a>
+						<a href="#">Australia</a>
+						<a href="#">Japan</a>
+						<a href="#">Norway</a>
+						<a href="#">Cyprus</a>
+						<a href="#">Canada</a>
+						<a href="#">Japan</a>
+					</div>
+					<div class="links" id="tab2">
+						<a href="#">Link 2</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 2</a>
+					</div>
+					<div class="links" id="tab3">
+						<a href="#">Link 3</a>
+						<a href="#">Link 3</a>
+						<a href="#">Link 3</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<button>For celebrities</button>
+		<a class="menu-button"></a>
+	</header>
+	<div class="index-page">
+		<h1>Find celebrities for photoshooting</h1>
+		<form class="top-search">
+			<input type="text" placeholder="Search by name">
+			<button></button>
+			<div class="window">
+				<ul>
+					<li><a href="#">Madonna</a></li>
+					<li><a href="#">Mom</a></li>
+					<li><a href="#">Mad</a></li>
+					<li><a href="#">Miami</a></li>
+					<li><a href="#">Mmeme</a></li>
+				</ul>
+			</div>
+		</form>
+		<div class="top-nav">
+			<div class="tabs">
+				<ul>
+					<li><a href="#t1">Country</a></li>
+					<li><a href="#t2">Content platform</a></li>
+					<li><a href="#t3">Category</a></li>
+				</ul>
+				<div class="links" id="t1">
+					<a href="#">All</a>
+					<a href="#">Canada</a>
+					<a href="#">Australia</a>
+					<a href="#">Japan</a>
+					<a href="#">Norway</a>
+					<a href="#" class="hidden h">Canada</a>
+					<a href="#" class="hidden h">Australia</a>
+					<a href="#" class="hidden h">Japan</a>
+					<a href="#" class="hidden h">Norway</a>
+					<a class="more-link"></a>
+				</div>
+				<div class="links" id="t2">
+					222
+				</div>
+				<div class="links" id="t3">
+					333
+				</div>
+			</div>
+			<div class="all">
+				<p>All countries</p>
+				<div class="links">
+					<a href="#">Canada</a>
+					<a href="#">Australia</a>
+					<a href="#">Japan</a>
+					<a href="#">Norway</a>
+					<a href="#">Cyprus</a>
+					<a href="#">Canada</a>
+					<a href="#">Japan</a>
+				</div>
+			</div>
+		</div>
+		<div class="item">
+			<div class="photos">
+				<div class="count sl-count"><span class="sl-count__current2">1</span>/<span class="sl-count__total2"></span></div>
+				<div class="list">
+					<div class="photo">
+						<a data-fancybox="gallery" href="img/item.png"><img src="img/item.png"></a>
+					</div>
+					<div class="photo">
+						<a data-fancybox="gallery" href="img/item.png"><img src="img/item.png"></a>
+					</div>
+					<div class="photo">
+						<a data-fancybox="gallery" href="img/item.png"><img src="img/item.png"></a>
+					</div>
+					<div class="photo">
+						<a data-fancybox="gallery" href="img/item.png"><img src="img/item.png"></a>
+					</div>
+					<div class="photo">
+						<a data-fancybox="gallery" href="img/item.png"><img src="img/item.png"></a>
+					</div>
+				</div>
+				<div class="preview-text">
+					<div class="bg"></div>
+					<div class="text">
+						<p>Caution: <br/>This photos may include potentially sensetive content</p>
+						<button>OK, show photos</button>
+					</div>
+				</div>
+			</div>
+			<div class="info">
+				<a class="dots-link"></a>
+				<nav class="menu">
+					<a href="#">Copy link to profile</a>
+					<a href="#">Report</a>
+					<a href="#">Your profile?</a>
+				</nav>
+				<div class="avatar">
+					<img src="img/avatar.png">
+				</div>
+				<h3>
+					h3Madonna, 18 <span class="checked"></span>
+				</h3>
+				<div class="nick">
+					@madonna
+				</div>
+				<div class="city">
+					Rome, Italy
+				</div>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				<a href="#" class="link"></a>
+			</div>
+		</div>
+		<div class="item">
+			<div class="photos">
+				<div class="count sl-count"><span class="sl-count__current2">1</span>/<span class="sl-count__total2"></span></div>
+				<div class="list">
+					<div class="photo">
+						<a data-fancybox="gallery2" href="img/item.png"><img src="img/item.png"></a>
+					</div>
+					<div class="photo">
+						<a data-fancybox="gallery2" href="img/item.png"><img src="img/item.png"></a>
+					</div>
+					<div class="photo">
+						<a data-fancybox="gallery2" href="img/item.png"><img src="img/item.png"></a>
+					</div>
+					<div class="photo">
+						<a data-fancybox="gallery2" href="img/item.png"><img src="img/item.png"></a>
+					</div>
+					<div class="photo">
+						<a data-fancybox="gallery2" href="img/item.png"><img src="img/item.png"></a>
+					</div>
+					<div class="photo">
+						<a data-fancybox="gallery2" href="img/item.png"><img src="img/item.png"></a>
+					</div>
+					<div class="photo">
+						<a data-fancybox="gallery2" href="img/item.png"><img src="img/item.png"></a>
+					</div>
+				</div>
+				<div class="preview-text">
+					<div class="bg"></div>
+					<div class="text">
+						<p>Caution: <br/>This photos may include potentially sensetive content</p>
+						<button>OK, show photos</button>
+					</div>
+				</div>
+			</div>
+			<div class="info">
+				<a class="dots-link"></a>
+				<nav class="menu">
+					<a href="#">Copy link to profile</a>
+					<a href="#">Report</a>
+					<a href="#">Your profile?</a>
+				</nav>
+				<div class="avatar">
+					<img src="img/avatar.png">
+				</div>
+				<h3>
+					h3Madonna, 18 <span class="checked"></span>
+				</h3>
+				<div class="nick">
+					@madonna
+				</div>
+				<div class="city">
+					Rome, Italy
+				</div>
+				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+				<a href="#" class="link"></a>
+			</div>
+		</div>
+		<div class="bottom-button">
+			<button>Load more</button>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="flex">
+			<ul>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Instagram</a></li>
+				<li><a href="#">Twitter</a></li>
+				<li><a href="#">Telegram</a></li>
+			</ul>
+			<div class="copy">
+				© 2022 website.com
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
